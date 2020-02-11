@@ -10,7 +10,6 @@ const server = http.createServer((req, res) => {
 server.listen(port,() => {
   console.log(`Server running at port `+port);
 });*/
-//test for push
 const http = require('http');
 const { parse } = require('querystring');
 
